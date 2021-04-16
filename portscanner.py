@@ -34,12 +34,13 @@ def scan_port(ipaddress,port):
             print('[+] Open Port '+ str(port))
     except:
         pass
-        
-targets=input('[+] Enter Target/s to Scan(split multiple targets with ,): ')
-port_num=int(input('[+] Enter Number of Ports You want To scan: '))
 
-if ',' in targets:
-    for ip_add in targets.split(','):
-        scan(ip_add.strip(' '),port_num)
-else:
-    scan(targets,port_num)
+if __name__=="__main__":        
+    targets=input('[+] Enter Target/s to Scan(split multiple targets with ,): ')
+    port_num=int(input('[+] Enter Number of Ports You want To scan: '))
+
+    if ',' in targets:
+        for ip_add in targets.split(','):
+            scan(ip_add.strip(' '),port_num)
+    else:
+        scan(targets,port_num)
