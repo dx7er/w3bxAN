@@ -28,3 +28,6 @@ After the scan is complete, the script will generate a report of its findings, w
 - The URL of the page that contains the vulnerability
 - The type of vulnerability (e.g. SQL injection, XSS, etc.)
 - The recommended course of action to fix the vulnerability
+
+#
+<a href="https://www.buymeacoffee.com/naqviO7" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
