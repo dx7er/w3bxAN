@@ -17,7 +17,7 @@ w3bxAN is a Python script designed to scan websites for common vulnerabilities, 
 ## Usage
 
 The script takes a single argument, which is the URL of the website you want to scan.<br> 
-For example: `python webvulnscan.py https://www.example.com`<br>
+For example: `python w3bxAN.py https://www.example.com`<br>
 <br>Use below command:
 - `python w3bxAN.py <url> -t <timeout> -o <path/filename.txt>`
 
