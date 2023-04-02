@@ -2,6 +2,9 @@
 
 w3bxAN is a Python script designed to scan websites for common vulnerabilities, including SQL injection, cross-site scripting (XSS), file inclusion etc. 
 
+![ray-so-export](https://user-images.githubusercontent.com/79792270/229343852-5e982e48-443c-41db-93fd-c64be2341d96.png)
+
+
 ## Features
 
 - Scans websites for common vulnerabilities
